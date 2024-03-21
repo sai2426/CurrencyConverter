@@ -4,6 +4,13 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-image: url('https://in.images.search.yahoo.com/search/images;_ylt=AwrKDvpL9ftlmQQAKU67HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=images+of+all+currency&fr2=piv-web&type=E210IN826G0&fr=mcafee#id=7&iurl=https%3A%2F%2Fcdn.britannica.com%2Fq%3A60%2F83%2F189283-050-DF7E0E75%2FBanknotes-world.jpg&action=click'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+    /* You can set background color as fallback */
+    background-color: #f0f0f0;
+    /* You can also add other properties like background-position if needed */
 }
 
 .heading {
